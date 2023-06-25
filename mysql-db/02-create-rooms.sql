@@ -1,0 +1,7 @@
+USE DOCKERIZED;
+CREATE TABLE rooms(
+   id INT AUTO_INCREMENT,
+   createdAt timestamp NOT NULL,
+   isDeleted BOOLEAN DEFAULT FALSE,
+   PRIMARY KEY(id)
+);
