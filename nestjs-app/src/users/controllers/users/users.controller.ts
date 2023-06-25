@@ -1,5 +1,4 @@
-import { Controller, Get, Param, Query } from '@nestjs/common';
-import { query } from 'express';
+import { Controller, Get, Query } from '@nestjs/common';
 import { UsersService } from 'src/users/services/users/users.service';
 
 @Controller('users')
